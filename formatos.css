@@ -45,6 +45,9 @@ footer {
 
 .welcome h1 {
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
 }
 
 .welcome p {
