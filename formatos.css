@@ -1,62 +1,72 @@
 body {
-    background-color: rgb(255, 156, 132);
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    min-height: 100%;
-    margin: 0;
+  background-color: rgb(255, 156, 132);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  min-height: 100%;
+  margin: 0;
+}
+
+form {
+  padding-left: 25px;
 }
 
 .top-menu {
-    background-color: #333;
-    overflow: hidden;
-    display: flex;
-    justify-content: left;
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 48px;
 }
 
 .top-menu a {
-    color: rgb(161, 160, 160);
-    text-decoration: none;
-    padding: 10px 5px;
-    margin: 0 10px;
+  color: rgb(161, 160, 160);
+  text-decoration: none;
+  padding: 10px 5px;
+  margin: 0 10px;
 }
 
 .top-menu a:hover {
-    color: rgb(218, 218, 218)
+  color: rgb(218, 218, 218);
+}
+
+#menu .currentOption {
+  color: rgb(236, 236, 236);
 }
 
 footer {
-    width: 100%;
-    position: fixed;
-    bottom:0;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0; 
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
 }
 
 .welcome {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
 }
 
 .welcome h1 {
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
 }
 
 .welcome p {
-    margin-bottom: 1px;
+  margin-bottom: 1px;
 }
 
 .welcome img {
-    display: inline-flex;
-    height: 50px;
-    width: 50px;
-    margin-right: 5px;
+  display: inline-flex;
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
 }
